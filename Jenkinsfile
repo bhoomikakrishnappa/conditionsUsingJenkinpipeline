@@ -5,8 +5,8 @@ pipeline {
         {
             when {
                 branch 'master'
-                echo "your in master branch"
             }
-        }    
-    }
+                echo 'your in master branch'
+        }
+    }    
 }
