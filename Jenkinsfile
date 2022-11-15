@@ -1,12 +1,16 @@
 pipeline {
     agent any
-    stages{
+    stages {
         stage("Example")
         {
             when {
                 branch "master"
             }
-                echo 'your in master branch'
+            steps {
+                echo "your in master branch"
+            }
         }
     }    
 }
+
+
