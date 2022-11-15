@@ -4,7 +4,7 @@ pipeline {
         stage("Test")
         {
             when {
-                branch "master"
+                branch "main"
             }
             steps {
                 echo "your in master branch"
